@@ -1,0 +1,46 @@
+/* Footer styles */
+.footer {
+    position: relative; /* Instead of fixed */
+    width: 100%;
+    background-color: #590707; /* Updated footer background color */
+    font-family: 'Bryndan Write', Arial, sans-serif; /* Bryndan Write only for the footer */
+    height: 80px; /* Adjusted height */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    margin-top: auto; /* Ensures it stays at the bottom */
+}
+
+.footer .social-icons {
+    margin-bottom: 5px; /* Space between icons and text */
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* Align icons at the center */
+    align-items: center;
+}
+
+.footer .social-icons img.icon {
+    width: 20px; /* Smaller icon size */
+    height: 20px;
+}
+
+.footer .social-icons img.icon:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 12px; /* Reduced font size for footer text */
+    line-height: 1.5;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

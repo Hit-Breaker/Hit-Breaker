@@ -1,0 +1,106 @@
+/* General body styling */
+body {
+  
+  background-color: #f8f8f8;
+}
+
+/* Box styling */
+.Box {
+  width: 250px; /* Reduced the width */
+  padding: 15px; /* Reduced padding */
+  border-radius: 15px;
+  background-color: burlywood;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: auto;
+}
+
+.header {
+  font-family: "Horizon", sans-serif;
+  font-weight: bold;
+  font-size: 28pt; /* Adjusted size */
+  margin-bottom: 10px;
+}
+
+.body-text {
+  font-family: "Arial Unicode MS", sans-serif;
+}
+
+.Box form {
+  width: 100%;
+}
+
+.Box form input[type="text"] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px; /* Smaller padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.9em; /* Reduced font size */
+  box-sizing: border-box;
+}
+
+.Box form input[type="submit"] {
+  width: 100%;
+  padding: 8px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Box form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.helper-text a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.helper-text a:hover {
+  text-decoration: underline;
+}
+
+/* Footer styles */
+.footer {
+  position: relative; /* Instead of fixed */
+  width: 100%;
+  background-color: #590707; /* Updated footer background color */
+  font-family: 'Bryndan Write', Arial, sans-serif; /* Bryndan Write only for the footer */
+  height: 80px; /* Adjusted height */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  margin-top: auto; /* Ensures it stays at the bottom */
+}
+
+.footer .social-icons {
+  margin-bottom: 5px; /* Space between icons and text */
+}
+
+.footer .social-icons img.icon {
+  width: 25px; /* Smaller icon size */
+  height: 25px;
+}
+
+.footer .social-icons img.icon:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 12px; /* Reduced font size for footer text */
+  line-height: 1.5;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,209 @@
+/* Import Horizon Bold Font (assuming you have the font file or you can replace with a web font) */
+@font-face {
+    font-family: 'HorizonBold';
+    src: url('path-to-your-font/Horizon-Bold.woff2') format('woff2'),
+         url('path-to-your-font/Horizon-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Background and container setup */
+body {
+    background: linear-gradient(to right, #000000, #3c006f);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 50px;
+}
+
+/* Left section (Image) */
+.left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.company-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Right section (Text) */
+.right {
+    flex: 1;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.right h1 {
+    font-family: 'HorizonBold', Arial, sans-serif;
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.right p {
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.right ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: white;
+}
+
+.right li {
+    color: white;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* First Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 20px;
+}
+
+.navbar img {
+    height: 40px;
+    width: auto;
+}
+
+.navbar .site-name {
+    color: white;
+    font-size: 24px;
+    flex-grow: 1;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .links a {
+    color: #f0eeee;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    font-family: 'Bryndan Write', cursive;
+    transition: background-color 0.3s;
+}
+
+.navbar .links a:hover {
+    background-color: #555;
+}
+
+.navbar .search-bar input {
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Second Navbar */
+.second-navbar {
+    background-color: #000000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.second-navbar .option {
+    color: #f8f8f8;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 0 15px;
+    transition: background-color 0.3s;
+    font-family: 'Bryndan Write', cursive;
+}
+
+.second-navbar .option:hover {
+    background-color: #555;
+}
+
+/* Footer styles with fixes */
+.footer.text-white {
+    background-color: #000000 !important;
+    font-family: 'Bryndan Write', Arial, sans-serif !important;
+    height: 80px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: auto !important;
+}
+
+.footer .social-icons {
+    margin-bottom: 5px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .social-icons img.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.footer .social-icons img.icon:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

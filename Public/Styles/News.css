@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Horizon+Bold&family=Yeseva+One&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.newsletter {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background:  #f0eeee;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.news-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.news-title {
+    font-family: 'Horizon Bold', sans-serif;
+    font-size: 1.5em;
+}
+
+.news-meta {
+    font-family: 'Yeseva One', serif;
+    font-size: 0.8em;
+    color: #555;
+}
+
+.news-content {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    color: #333;
+}
